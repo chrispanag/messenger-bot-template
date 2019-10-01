@@ -1,0 +1,19 @@
+{
+  "name": "cardlink-demo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "npx tsc && npx cpx -v \"lib/webviews/templates/**/*\" build/webviews/templates",
+    "dev": "npm run build && ./build/index.js",
+    "fb:config": "node ./build/scripts/install.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ebony-framework": "github:chrispanag/ebony#new-typings",
+    "ebony-messenger-adapter": "github:chrispanag/ebony-messenger-adapter",
+    "typescript": "^3.5.3"
+  }
+}
