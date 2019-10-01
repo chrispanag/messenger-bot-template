@@ -1,7 +1,5 @@
 # Messenger Bot Template
 
-[![Gitter](https://badges.gitter.im/ebony-framework/community.svg)](https://gitter.im/ebony-framework/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 A ready-to-go template to create your own Facebook Messenger bot using the [Ebony Framework](https://github.com/chrispanag/ebony) and the [Ebony Messenger Adapter](https://github.com/chrispanag/ebony-messenger-adapter).
 
 ## Getting Started
