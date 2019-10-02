@@ -6,7 +6,7 @@ const { Message } = sendAPI;
 export async function getStarted(user: MessengerUser) {
     await bot.scenario(user)
         .send(new Message({
-            text: `Γεια σου ${user.firstName} :D`
+            text: `Hi ${user.firstName} :D`
         }))
         .end();
 }

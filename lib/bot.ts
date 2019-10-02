@@ -1,7 +1,7 @@
 import { Bot } from 'ebony-framework';
-import { MessengerAdapter } from 'ebony-messenger-adapter';
+import { MessengerAdapter, MessengerUser } from 'ebony-messenger-adapter';
+
 import getStarted from './modules/getStarted';
-import { MessengerUser } from 'ebony-messenger-adapter';
 
 export const adapter = new MessengerAdapter({
     pageId: process.env.FB_PAGE_ID ? process.env.FB_PAGE_ID : "",
