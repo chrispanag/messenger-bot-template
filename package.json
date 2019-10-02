@@ -12,8 +12,8 @@
   "author": "Christos Panagiotakopoulos <chrispanag@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ebony-framework": "github:chrispanag/ebony",
-    "ebony-messenger-adapter": "github:chrispanag/ebony-messenger-adapter",
+    "ebony-framework": "*",
+    "ebony-messenger-adapter": "*",
     "typescript": "^3.6.3"
   }
 }
